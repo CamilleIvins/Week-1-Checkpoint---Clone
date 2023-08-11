@@ -1,0 +1,81 @@
+body.debug .container,
+body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+}
+
+body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+}
+
+:root {
+    --theme: hsla(191, 100%, 57%, 0.396);
+    --cardBack: hsla(120, 1%, 85%, 0.747);
+    --textLight: hsla(0, 0%, 86%, 0.596);
+    ---test: rgba(0, 255, 255, 0.089);
+    border-radius: 10px;
+}
+
+div {
+    margin: 0;
+}
+
+.subtle {
+    color: var(--textLight);
+}
+
+.less-subtle {
+    color: hsla(0, 0%, 86%, 0.796);
+}
+
+.img-height {
+    object-position: center;
+}
+
+button {
+    background-color: var(--theme);
+}
+
+.theme-img {
+    height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1608979827489-2b855e79debe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    /* background-image: url(https://images.unsplash.com/photo-1581056692101-785f6bbd61ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1781&q=80); */
+    background-size: cover;
+    background-position: center;
+    /* backdrop-filter: brightness(120%); */
+    /* filter: blur(2px); */
+}
+
+.bg-theme {
+    background-color: var(--theme);
+}
+
+.form-container {
+    background-color: var(--cardBack);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+
+.card-height {
+    height: 15vh;
+}
+
+.text {
+    font-family: 'Vollkorn', serif;
+}
+
+.text-special {
+    font-family: 'Tangerine', cursive;
+    font-size: 42px;
+    text-shadow: .5px .5px 1px black;
+}
+
+.mdi-heart-plus-outline {
+    font-size: 42px;
+}
