@@ -51,6 +51,12 @@ button {
     background-color: var(--theme);
 }
 
+button.rounded-pill {
+    position: absolute;
+    bottom: 1.5em;
+    right: 1.5em;
+}
+
 .theme-img {
     height: 60vh;
     background-image: url(https://images.unsplash.com/photo-1608979827489-2b855e79debe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
@@ -88,8 +94,8 @@ button {
 @media (min-width: 768px) {
     .card-overlay {
         position: absolute;
-        left: 55vw;
-        bottom: -3em;
+        left: 50vw;
+        bottom: -1.5em;
         font-size: 20px;
         /* background-color: var(--overlay); */
     }
