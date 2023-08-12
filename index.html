@@ -77,14 +77,18 @@
 
 
         <!-- **SECTION - 2: this will have the card positioned absolute - must be ordered diff om mobile view-->
-        <section class="row text-start align-items-center bg-theme p-1">
-            <div class="col-12 col-md-5">
-                <h2 class="text-special">Buona salute è la vera ricchezza</h2>
-                <p>Good health is true wealth. At Ricchezza, our aim is to guide each individual towards true wealth in
+        <section
+            class="row text-start align-items-center justify-content-md-between justify-content-center bg-theme p-4 position-relative ">
+            <div class="col-12 col-md-5 order-md-0 order-1">
+                <h2 class="text-special pt-2">Buona salute è la vera ricchezza</h2>
+                <p class="pt-2">Good health is true wealth. At Ricchezza, our aim is to guide each individual towards
+                    true
+                    wealth in
                     living.</p>
             </div>
             <!-- **FIXME - this is not right - needs to be in another div to make a card to set position absolute -->
-            <div class="col-12 col-md-7 p-1">
+            <!-- <div class=" col-md-7 col-12 bg-md-theme"> -->
+            <div class="row col-md-4 col-12 card-overlay bg-base order-md-1 order-0">
                 <div class="mdi mdi-hospital-marker"> Convenient central location</div>
 
                 <div class="mdi mdi-doctor"> Quality service by qualified professionals</div>
@@ -95,7 +99,7 @@
 
                 <div class="mdi mdi-mother-nurse"> Family support network</div>
             </div>
-
+            </div>
 
         </section>
 
@@ -103,12 +107,12 @@
         <!-- **SECTION - 3: picture L and largest heading w/ icon R <-- has button in lower R-->
         <section class="row justify-content-between align-content-center">
             <div class="col-12 col-md-5 px-0">
-                <img class="img-fluid img-height "
+                <img class="img-fill "
                     src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     alt="">
             </div>
 
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-md-7 p-5">
                 <h1> <span class="mdi mdi-heart-plus-outline"> </span> Lorem ipsum dolor sit, amet consectetur
                     adipisicing
                     elit.
@@ -127,7 +131,7 @@
         </section>
 
 
-        <!-- **SECTION - 4: 3 cards, center larger -->
+        <!-- **SECTION - 4: 3 cards, center larger - use "Sam I Am" design for card, will need custom classes-->
         <section class="row justify-content-between align-items-center text-center p-1">
 
             <div class="col-md-4 col-12">
@@ -171,7 +175,7 @@
 
         <!-- **SECTION - 5: generic title and subtext, all to the left -->
         <section class="row bg-theme">
-            <div>
+            <div class="mt-2">
                 <h1>
                     Lorem, ipsum dolor.
                 </h1>
