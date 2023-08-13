@@ -7,10 +7,11 @@
 
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
         integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
-    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/7.2.96/css/materialdesignicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Vollkorn&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Tangerine:wght@700&family=Vollkorn&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
@@ -21,10 +22,12 @@
 <body class="debug text">
 
 
-    <header class="container-fluid">
+    <header class="container-fluid align-content-center">
         <section class="row">
-            <div class="mdi mdi-phone text-start">
-                Place mdi class, then add text
+            <div class="text-special text-start"><span class="mdi mdi-quadcopter mdi-rotate-45"></span>
+                <span class="">
+                    Ricchezza
+                </span>
             </div>
         </section>
 
@@ -81,12 +84,12 @@
             class="row text-start align-items-center justify-content-md-between justify-content-center bg-theme p-4 position-relative ">
             <div class="col-12 col-md-5 order-md-0 order-1">
                 <h2 class="text-special pt-2">Buona salute è la vera ricchezza</h2>
-                <p class="pt-2">Good health is true wealth. At Ricchezza, our aim is to guide each individual towards
-                    true
-                    wealth in
-                    living.</p>
+                <p class="pt-2">
+                    Good health is true wealth. At Ricchezza, our aim is to guide each individual towards
+                    true wealth in living.
+                </p>
             </div>
-            <!-- **FIXME - this is not right - needs to be in another div to make a card to set position absolute -->
+            <!-- Needs to be in another div to make a card to set position absolute -->
             <!-- <div class=" col-md-7 col-12 bg-md-theme"> -->
             <div class="row col-md-5 col-12 card-overlay bg-base order-md-1 order-0">
                 <div class="mdi mdi-hospital-marker"> Convenient central location</div>
@@ -113,13 +116,21 @@
             </div>
 
             <div class="col-12 col-md-7 p-5 position-relative">
-                <h1> <span class="mdi mdi-heart-plus-outline"> </span> Lorem ipsum dolor sit, amet consectetur
+                <h1 class="py-3"> <span class="mdi mdi-heart-plus-outline"> </span> Lorem ipsum dolor sit, amet
+                    consectetur
                     adipisicing
                     elit.
                     Aliquid, cum ea.
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod quibusdam rem reprehenderit
-                    animi, et facere quam accusamus veritatis officiis?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos architecto quaerat fugit, ipsa
+                    asperiores dolorum veniam accusantium deleniti neque quis vitae assumenda maxime iure doloribus
+                    tenetur quo ratione nam illum?
+                    Autem consequatur harum enim commodi cumque optio adipisci eius atque. Alias ad officia commodi
+                    similique enim. Praesentium cumque veniam nihil quae, quaerat iusto incidunt nisi delectus tempore
+                    esse nulla exercitationem!
+                    Odio voluptates consectetur distinctio necessitatibus, error quibusdam optio qui laudantium expedita
+                    sint veniam pariatur corporis aspernatur delectus ex illo aperiam inventore sunt, a blanditiis sequi
+                    eveniet soluta laborum quisquam? Molestias!</p>
                 <div class="text-end">
                     <button class="rounded-pill p-1">
                         Get started today!
@@ -132,9 +143,10 @@
 
 
         <!-- **SECTION - 4: 3 cards, center larger, order-0 in mobile - use "Sam I Am" design for card, will need custom classes-->
-        <section class="row justify-content-around align-items-center align-items-md-between text-center p-1">
+        <section
+            class="row justify-content-around align-items-center align-items-md-between text-center bg-success-subtle p-1">
 
-            <div class="col-md-3 col-12">
+            <div id="fiddle-2" class="col-md-3 col-11">
                 <div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim!.</p>
                 </div>
@@ -145,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div id="fiddle-1" class="col-md-3 col-11">
                 <div>
                     <b class="mdi-mdi-phone"></b>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae tempore odit vel
@@ -158,7 +170,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div id="fiddle-2" class="col-md-3 col-11">
                 <div>
                     <p>Lorem, ipsum.</p>
                 </div>
